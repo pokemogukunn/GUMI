@@ -13,8 +13,7 @@
       <pubDate>Sun, 08 Jan 2023 14:44:36 +0900</pubDate>
       
       <guid>/blog/p/99zn78n/</guid>
-      <description>hugoを使ってブログを作ったのはいいが、自分のアイコンを設定することができない。 config.tomlをいじってもリファレンスを読んでもよくわからなかったのでテーマを直接書き換えることにした。
-このサイトはTranquilpeakというテーマを使っている。 調べたところによると、どうやら/thmers/Transquilpeak//layouts/partials/にテンプレートファイルがあるようなので、そこをいじってimages/avater.webpを参照するように書き換えた。 これでアイコンがとっても可愛い女の子になり癒されるようになった。</description>
+      <description>hugoを使ってブログを作った。どうやら/thmers/Transquilpeak//layouts/partials/にテンプレートファイルが、そこをいじってimages/avater.webpを参照するように書き換えた。</description>
     </item>
     
   </channel>
