@@ -13,7 +13,7 @@
   "routes": [
     {
       "src": "/",
-      "dest": "/blog/index.html"
+      "dest": "/blog/p/qvzimjn/index.html"
     },
     {
       "src": "/api/(.*)",
