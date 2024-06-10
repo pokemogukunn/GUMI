@@ -2,18 +2,18 @@
   "version": 2,
   "builds": [
     {
-      "src": "app.js",
-      "use": "@vercel/node"
-    },
-    {
-      "src": "blog/**/*",
+      "src": "/templates/**",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
-      "src": "/",
-      "dest": "/blog/p/qvzimjn/index.html"
+      "src": "/templates/home.html",
+      "dest": "/templates/search.html"
+    },
+    {
+      "src": "/templates/search.html",
+      "dest": "/templates/video.html"
     },
     {
       "src": "/api/(.*)",
