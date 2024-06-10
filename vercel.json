@@ -2,7 +2,7 @@
   "version": 2,
   "routes": [
     {
-      "src": "/blog/p/qvzimjn/85175",
+      "src": "/blog/p/qvzimjn/*",
       "dest": "/templates/home.html"
     },
     {
