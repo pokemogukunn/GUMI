@@ -1,23 +1,23 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "/templates/**",
-      "use": "@vercel/static"
-    }
-  ],
   "routes": [
     {
-      "src": "/templates/home.html",
+      "src": "/blog/p/qvzimjn/85175",
+      "dest": "/templates/home.html"
+    },
+    {
+      "src": "/templates/search",
+      "methods": ["POST"],
       "dest": "/templates/search.html"
     },
     {
-      "src": "/templates/search.html",
-      "dest": "/templates/video.html"
+      "src": "/templates/search",
+      "methods": ["GET"],
+      "status": 404
     },
     {
-      "src": "/api/(.*)",
-      "dest": "/app.js"
+      "src": "/templates/video",
+      "dest": "/templates/video.html"
     }
   ]
 }
