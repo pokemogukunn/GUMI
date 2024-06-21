@@ -40,6 +40,20 @@
                 </video>
                 </video>
             </div>
+            <button onclick="generateSubtitles()">Generate Subtitles</button>
+    
+    <script>
+        function generateSubtitles() {
+            fetch('/generate_subtitles', { method: 'POST' })
+                .then(response => response.json())
+                .then(data => {
+                    const track = document.getElementById('subtitle-track');
+                    track.src = data.subtitle_url;
+                    track.mode = 'showing';
+                })
+                .catch(error => console.error('Error:', error));
+        }
+    </script>
             <div class="h-box">
                 <h1>{{ videotitle }}</h1>
             </div>
