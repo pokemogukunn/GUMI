@@ -1,9 +1,9 @@
 {
   "name": sugaku,
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.py",
   "scripts": {
-    "start": "node index.js"
+    "start": "node main.py"
   },
   "dependencies": {
     "express": "^4.17.1"
